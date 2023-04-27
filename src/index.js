@@ -7,6 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import TagManager from 'react-gtm-module';
 import ReactGA from 'react-ga';
 
+
 ReactGA.initialize('G-CX2R0D0CNV');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
