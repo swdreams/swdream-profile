@@ -5,12 +5,20 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 import TagManager from 'react-gtm-module';
+import ReactGA from 'react-ga';
 
-const tagManagerArgs = {
-  gtmId: 'G-CX2R0D0CNV'
+ReactGA.initialize('G-CX2R0D0CNV');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
+console.log('GA4 added.. v2');
+
+
+// GTM-M24KJPK
+/* const tagManagerArgs = {
+  gtmId: 'GTM-M24KJPK'
 }
-
-TagManager.initialize(tagManagerArgs);
+console.log(tagManagerArgs);
+TagManager.initialize(tagManagerArgs); */
 
 
 ReactDOM.render(
