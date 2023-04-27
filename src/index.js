@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 import TagManager from 'react-gtm-module';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 
 ReactGA.initialize('G-CX2R0D0CNV');
