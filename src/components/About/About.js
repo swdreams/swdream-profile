@@ -7,11 +7,6 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
-import ReactGA from 'react-ga';
-// Send pageview with a custom path
-ReactGA.send({ hitType: "about", page: "/about", title: "About" });
-
-
 function About() {
   return (
     <Container fluid className="about-section">

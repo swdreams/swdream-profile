@@ -4,14 +4,14 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import TagManager from 'react-gtm-module';
+// import TagManager from 'react-gtm-module';
 import ReactGA from 'react-ga4';
 
 
 ReactGA.initialize('G-CX2R0D0CNV');
-ReactGA.pageview(window.location.pathname + window.location.search);
+// ReactGA.pageview(window.location.pathname + window.location.search);
 
-console.log('GA4 added.. v2');
+console.log('GA4 added.. v3');
 
 
 // GTM-M24KJPK

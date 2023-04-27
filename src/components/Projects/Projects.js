@@ -9,7 +9,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 // Send pageview with a custom path
 ReactGA.send({ hitType: "pageview", page: "/projects", title: "Projects" });
 
